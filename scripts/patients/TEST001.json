@@ -1,0 +1,37 @@
+{
+  "patient_id": "TEST001",
+  "basic_info": {
+    "name": "张三",
+    "age": 45,
+    "gender": "男",
+    "admission_date": "2026-05-24",
+    "occupation": "",
+    "marital_status": ""
+  },
+  "history": {
+    "present_illness": "",
+    "present_illness_raw": "测试原始纪要内容",
+    "mental_exam_raw": ""
+  },
+  "examination": {
+    "physical": "",
+    "mental": ""
+  },
+  "diagnosis": {
+    "primary": "",
+    "basis": "",
+    "differential": ""
+  },
+  "treatment": {
+    "plan": ""
+  },
+  "course_records": {
+    "first_course": "C:/Users/12962/WorkBuddy/20260406080034/测试_首次病程_AI直驱.docx",
+    "first_course_date": "2026-05-28"
+  },
+  "status": "inpatient",
+  "metadata": {
+    "created_at": "2026-05-24",
+    "updated_at": "2026-05-28T15:27:08.191038"
+  }
+}

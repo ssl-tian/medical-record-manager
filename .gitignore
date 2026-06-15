@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.docx
+*.bak.*
+data/patients/
+scripts/patients/
+scripts/debug_duration.py
+scripts/test_write.py
+scripts/test_write_output.py
+scripts/_backfill_scheme*.py
+*首次病程_测试*
+schizophrenia_guide_2025_drug_therapy.md
+treatment_wiki/schizophrenia_guide_2025_drug_therapy.md

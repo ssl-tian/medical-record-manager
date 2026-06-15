@@ -1,0 +1,3094 @@
+{
+  "schemes": [
+    {
+      "id": "naltrexone_maintenance",
+      "name": "纳曲酮维持治疗",
+      "category": "维持期",
+      "medications": [
+        {
+          "name": "纳曲酮",
+          "dosage": "50mg po qd",
+          "notes": "疗程3-6个月，减少饮酒复发",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度酒精依赖",
+      "evidence_level": "RCT证实",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "酒精依赖药物治疗进展综述",
+        "year": 2024
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "酒精依赖药物治疗进展综述",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "acamprosate_naltrexone_combined",
+      "name": "阿坎酸+纳曲酮联合方案",
+      "category": "重度-稳定期",
+      "medications": [
+        {
+          "name": "纳曲酮",
+          "dosage": "50mg po qd",
+          "notes": "联合用药",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿坎酸",
+          "dosage": "666mg po tid",
+          "notes": "联用纳曲酮增强抗渴求效果",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "重度酒精依赖",
+      "evidence_level": "研究证实",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "酒精依赖药物治疗进展综述",
+        "year": 2024
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "酒精依赖药物治疗进展综述",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_mild_depression_cbt",
+      "name": "失眠伴轻中度抑郁-CBT-I方案",
+      "category": "失眠伴抑郁-轻中度",
+      "medications": [
+        {
+          "name": "SSRIs/SNRIs",
+          "dosage": "常规剂量（早晨服用）",
+          "notes": "帕罗西汀等初期可能影响睡眠建议晨服；氟伏沙明可晚服",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米氮平",
+          "dosage": "小剂量",
+          "notes": "辅助SSRIs/SNRIs，改善睡眠质量和早醒。注意体重增加",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "唑吡坦/佐匹克隆/右佐匹克隆",
+          "dosage": "最低有效剂量，按需给药",
+          "notes": "必要时辅以镇静安眠药，失眠改善后逐渐减量至停药",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "慢性失眠伴轻中度抑郁",
+      "evidence_level": "专家共识A级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_moderate_depression_mirtazapine",
+      "name": "失眠伴抑郁-米氮平+SSRIs/SNRIs方案",
+      "category": "失眠伴抑郁-中重度",
+      "medications": [
+        {
+          "name": "SSRIs/SNRIs",
+          "dosage": "常规剂量",
+          "notes": "早晨服用（氟伏沙明除外）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米氮平",
+          "dosage": "小剂量联用",
+          "notes": "NaSSA类，减少睡眠片段化，改善早醒，提高睡眠效率",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "唑吡坦/佐匹克隆/右佐匹克隆",
+          "dosage": "最低有效剂量",
+          "notes": "non-BZDs类，短期按需使用（常规不超过3-4周）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "曲唑酮",
+          "dosage": "作为辅助或增效治疗",
+          "notes": "可修复SSRIs导致的睡眠紊乱，剂量宜小",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "失眠伴中重度抑郁",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_anxiety_bzd",
+      "name": "失眠伴轻度焦虑-BZDs方案",
+      "category": "失眠伴焦虑-轻度",
+      "medications": [
+        {
+          "name": "阿普唑仑/氯硝西泮/劳拉西泮/地西泮",
+          "dosage": "最低有效剂量",
+          "notes": "BZDs类，对失眠伴焦虑疗效较好，减少夜间觉醒。注意跌倒、依赖风险",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "失眠伴轻度焦虑",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_anxiety_sedative_antidepr",
+      "name": "失眠伴焦虑突出-镇静抗焦虑抑郁药方案",
+      "category": "失眠伴焦虑-中重度",
+      "medications": [
+        {
+          "name": "曲唑酮",
+          "dosage": "常规剂量",
+          "notes": "SARIs类，改善睡眠质量和结构，延长睡眠时间",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米氮平",
+          "dosage": "小剂量",
+          "notes": "改善睡眠质量，NaSSA类",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "焦虑突出伴发失眠",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_anxiety_comorbid_combined",
+      "name": "失眠与焦虑共病-联合方案",
+      "category": "失眠伴焦虑-共病",
+      "medications": [
+        {
+          "name": "BZDs/non-BZDs",
+          "dosage": "最低有效剂量，按需",
+          "notes": "镇静安眠药，通过不同睡眠-觉醒机制提高疗效，降低高剂量单一用药毒副作用",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "褪黑素受体激动剂（阿戈美拉汀等）",
+          "dosage": "常规剂量",
+          "notes": "联合使用提高疗效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "抗焦虑/抑郁药物",
+          "dosage": "常规剂量",
+          "notes": "坦度螺酮、文拉法辛等治疗初期更应注意联合镇静催眠药",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "失眠与焦虑障碍共病",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_depression_anxiety_combined",
+      "name": "失眠伴抑郁焦虑共病-综合方案",
+      "category": "失眠伴抑郁焦虑-共病",
+      "medications": [
+        {
+          "name": "SSRIs/SNRIs",
+          "dosage": "常规剂量",
+          "notes": "抗抑郁焦虑基础用药",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "镇静催眠药（non-BZDs首选）",
+          "dosage": "最低有效剂量，按需给药",
+          "notes": "唑吡坦、佐匹克隆等，短期使用",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米氮平/曲唑酮",
+          "dosage": "小剂量",
+          "notes": "辅助改善睡眠",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氟哌噻吨美利曲辛",
+          "dosage": "常规剂量",
+          "notes": "合剂，适用于轻中度抑郁焦虑伴失眠",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "失眠与抑郁障碍和焦虑障碍共病",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "insomnia_mild_depression_pharmacologic",
+      "name": "失眠伴抑郁症状-非药物优先方案",
+      "category": "失眠伴抑郁症状",
+      "medications": [],
+      "indications": "失眠伴抑郁症状（未达抑郁障碍诊断标准）",
+      "evidence_level": "专家共识推荐",
+      "confidence": "EXTRACTED",
+      "non_pharmacologic": "首选CBT-I+睡眠卫生教育，较严重时辅以镇静催眠药或具有镇静作用的抗抑郁药（曲唑酮、米氮平）",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国成人失眠伴抑郁焦虑诊治专家共识",
+        "year": 2017
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国成人失眠伴抑郁焦虑诊治专家共识",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_ssris",
+      "name": "抑郁症急性期-SSRIs单药治疗",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "SSRIs（氟西汀/舍曲林/帕罗西汀/氟伏沙明/西酞普兰/艾司西酞普兰）",
+          "dosage": "根据患者病情、年龄及耐受性，以适当速度增加剂量",
+          "notes": "一线药物(1级证据)；单独使用时各药疗效无显著差异；急性期8-12周足量治疗",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度抑郁发作急性期首选治疗方式；青少年抑郁障碍（氟西汀、舍曲林为首选）",
+      "evidence_level": "1级证据（指南推荐）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_snris",
+      "name": "抑郁症急性期-SNRIs单药治疗",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "SNRIs（文拉法辛/度洛西汀/米那普仑）",
+          "dosage": "根据患者病情及耐受性调整剂量",
+          "notes": "一线药物(1级证据)；文拉法辛单独使用时临床治愈率优于SSRIs类",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度抑郁发作急性期，尤其适合文拉法辛（临床治愈率更高）",
+      "evidence_level": "1级证据（指南推荐）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_ndri_bupropion",
+      "name": "抑郁症急性期-安非他酮(NDRI)治疗",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "安非他酮(NDRI)",
+          "dosage": "常规剂量",
+          "notes": "一线药物(1级证据)；疗效与SSRIs和SNRIs相当",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抑郁症急性期治疗",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_agomelatine",
+      "name": "抑郁症急性期-阿戈美拉汀治疗",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "阿戈美拉汀",
+          "dosage": "常规剂量",
+          "notes": "一线药物(1级证据)；通过恢复生物节律同步化起效；需监测肝功能（基线、第3/6/12/24周），转氨酶超正常值3倍停药；疗效及预防复发优于安慰剂",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抑郁症急性期治疗，尤其适合伴有生物节律紊乱的患者",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_vortioxetine",
+      "name": "抑郁症急性期-伏硫西汀治疗",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "伏硫西汀",
+          "dosage": "常规剂量",
+          "notes": "一线药物(1级证据)；多模式抗抑郁药，抑制5-HT再摄取并调节多种5-HT受体；疗效与SSRIs和SNRIs相当",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抑郁症急性期治疗，可能对认知功能有额外获益",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_trd_quetiapine_er",
+      "name": "难治性抑郁症-喹硫平缓释片增效治疗",
+      "category": "抑郁症-难治性-增效治疗",
+      "medications": [
+        {
+          "name": "喹硫平缓释片",
+          "dosage": "单药使用或联合抗抑郁剂",
+          "notes": "一线增效治疗(1级证据)；推荐单药使用或联合抗抑郁剂",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "对抗抑郁剂治疗应答不佳的抑郁症患者",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_trd_aripiprazole",
+      "name": "难治性抑郁症-阿立哌唑增效治疗",
+      "category": "抑郁症-难治性-增效治疗",
+      "medications": [
+        {
+          "name": "阿立哌唑",
+          "dosage": "联合抗抑郁剂",
+          "notes": "FDA批准；一线增效治疗(1级证据)",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "难治性抑郁症（足量足疗程同类型和不同类型抗抑郁药物治疗无效或部分有效时）",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_trd_buspirone",
+      "name": "抑郁症-丁螺环酮增效治疗",
+      "category": "抑郁症-增效治疗",
+      "medications": [
+        {
+          "name": "丁螺环酮",
+          "dosage": "作为抗抑郁剂增效剂使用",
+          "notes": "一线增效药物(1级证据)；可改善焦虑症患者的认知功能",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抗抑郁剂治疗效果不佳，尤其伴有焦虑症状的患者",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_cbt_combined",
+      "name": "抑郁症急性期-CBT联合药物治疗",
+      "category": "抑郁症-急性期-联合治疗",
+      "medications": [
+        {
+          "name": "CBT（认知行为治疗）",
+          "dosage": "联合抗抑郁剂",
+          "notes": "一线方案(1级证据)；联合抗抑郁剂能显著提高临床疗效；青少年抑郁症首选心理治疗",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抑郁症急性期综合治疗；青少年抑郁症；焦虑抑郁共病",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_rtms_combined",
+      "name": "抑郁症-高频rTMS联合药物治疗",
+      "category": "抑郁症-物理治疗",
+      "medications": [
+        {
+          "name": "高频重复经颅磁刺激(rTMS)",
+          "dosage": "联合抗抑郁剂",
+          "notes": "一线物理治疗(1级证据)；能缓解焦虑及抑郁症状并改善认知功能；青少年中表现出安全性和耐受性",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抑郁症物理治疗；青少年抑郁症辅助治疗",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_severe_mect",
+      "name": "重度抑郁症/难治性-MECT治疗",
+      "category": "抑郁症-紧急/难治性-物理治疗",
+      "medications": [
+        {
+          "name": "改良电抽搐治疗(MECT)",
+          "dosage": "联合抗抑郁剂",
+          "notes": "二线治疗(1级证据)；适用于自杀风险较高者、抑郁危重状态、多种治疗效果不佳时紧急治疗",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "自杀风险较高的抑郁症患者；抑郁危重状态；多种治疗效果不佳时",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_adolescent_ssri_cbt",
+      "name": "青少年抑郁症-SSRIs联合CBT",
+      "category": "特殊人群-青少年抑郁症",
+      "medications": [
+        {
+          "name": "SSRIs（氟西汀/舍曲林）",
+          "dosage": "6-12周心理治疗后无效时合并",
+          "notes": "儿童青少年抑郁障碍首选药物；经6-12周心理治疗无效后合并；氯胺酮耐受性良好但因成瘾性不首选",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "CBT",
+          "dosage": "首选心理治疗方法",
+          "notes": "青少年抑郁症首选心理治疗方法；其次推荐锻炼、家庭治疗和人际治疗",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "儿童青少年抑郁障碍",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_elderly_ssris",
+      "name": "老年抑郁症-SSRIs低剂量治疗",
+      "category": "特殊人群-老年抑郁症",
+      "medications": [
+        {
+          "name": "SSRIs",
+          "dosage": "起始剂量比成年人偏低",
+          "notes": "老年重度抑郁症一线治疗药物；需定期监测精神状况及躯体情况；需与痴呆相鉴别",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "老年轻中度抑郁症（推荐心理治疗）；老年重度抑郁症（推荐SSRIs）",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_perinatal_comprehensive",
+      "name": "孕产妇抑郁症-综合治疗方案",
+      "category": "特殊人群-孕产妇抑郁症",
+      "medications": [
+        {
+          "name": "心理治疗（CBT/IPT/正念）",
+          "dosage": "轻度患者支持性心理治疗；中度患者CBT/人际关系心理治疗/正念",
+          "notes": "轻中度患者首选心理治疗；最有效的是人际心理治疗及CBT",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "抗抑郁药",
+          "dosage": "心理治疗无效的重度患者必要时使用",
+          "notes": "妊娠早期应尽量避免用药；有严重自杀倾向者在知情同意权衡利弊后可用；产后可考虑单用SSRIs",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "孕产妇抑郁症，根据抑郁严重程度调整方案",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "mdd_chronic_disease_ssris",
+      "name": "慢性病共病抑郁症-SSRIs/CBT治疗",
+      "category": "特殊人群-慢性病共病",
+      "medications": [
+        {
+          "name": "SSRIs",
+          "dosage": "联用内科药物控制躯体症状",
+          "notes": "胃肠疾病：氟伏沙明/氟西汀能有效改善胃肠症状和抑郁情绪；糖尿病：SSRIs或CBT改善抑郁症状；心血管疾病：CBT或SSRIs",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "CBT",
+          "dosage": "心理治疗",
+          "notes": "急性冠脉综合征、心力衰竭共病抑郁推荐CBT",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "伴有躯体疾病的抑郁症患者（胃肠疾病、糖尿病、心血管疾病、肿瘤等）",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_mania_first_line",
+      "name": "急性躁狂一线单药治疗",
+      "category": "急性期-躁狂",
+      "medications": [
+        {
+          "name": "锂盐",
+          "dosage": "常规治疗剂量",
+          "notes": "经典欣快夸大型首选；BD家族史锂应答者优先；共病物质滥用者不首选",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "喹硫平",
+          "dosage": "常规治疗剂量",
+          "notes": "焦虑症状可能有特异性抗焦虑效应",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "丙戊酸（双丙戊酸）",
+          "dosage": "常规治疗剂量",
+          "notes": "多次发作/易激惹/共病物质滥用首选；妊娠D类",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿塞那平",
+          "dosage": "常规治疗剂量",
+          "notes": "舌下含服",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "常规治疗剂量",
+          "notes": "口服或IM",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕利哌酮",
+          "dosage": ">6 mg/d",
+          "notes": "不推荐联合锂/丙戊酸",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "常规治疗剂量",
+          "notes": "",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "卡利拉嗪",
+          "dosage": "常规治疗剂量",
+          "notes": "",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "BDI急性躁狂发作，约50%患者3-4周应答",
+      "evidence_level": "CANMAT Level 1",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_mania_combination",
+      "name": "急性躁狂一线联合治疗",
+      "category": "急性期-躁狂",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "常规剂量",
+          "notes": "+锂/丙戊酸（1级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "常规剂量",
+          "notes": "+锂/丙戊酸（1级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "常规剂量",
+          "notes": "+锂/丙戊酸（2级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿塞那平",
+          "dosage": "常规剂量",
+          "notes": "+锂/丙戊酸（2级）",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "需快速应答、既往单药部分应答、严重躁狂。比单药多约20%应答率",
+      "evidence_level": "CANMAT Level 1-2",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_mania_agitation",
+      "name": "躁狂激越阶梯式管理",
+      "category": "急性期-躁狂-激越",
+      "medications": [
+        {
+          "name": "洛沙平",
+          "dosage": "吸入5mg，24h max 10mg",
+          "notes": "激越一线，证据1级",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑IM",
+          "dosage": "9.75mg，24h max 15mg",
+          "notes": "激越一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "劳拉西泮IM",
+          "dosage": "2mg",
+          "notes": "激越一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "奥氮平IM",
+          "dosage": "2.5mg，24h max 10mg",
+          "notes": "激越一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿塞那平舌下",
+          "dosage": "10mg",
+          "notes": "激越二线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氟哌啶醇IM",
+          "dosage": "5mg，24h max 15mg",
+          "notes": "激越二线",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "躁狂伴激越（排除静坐不能后）。口服无效/拒绝口服/不能安全口服时考虑IM/吸入",
+      "evidence_level": "CANMAT Level 1-4",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_depression_first_line",
+      "name": "急性双相I抑郁一线治疗",
+      "category": "急性期-双相抑郁",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "300 mg/d（300与600等效）",
+          "notes": "无治疗前首选；第1周分离；有抗焦虑效应",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "血锂0.8-1.2 mEq/L",
+          "notes": "已用锂盐者首选；<0.8可能无效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "≥200 mg/d",
+          "notes": "需缓慢滴定（皮疹/SJS风险）；起效慢；不适合快速应答需求",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "鲁拉西酮",
+          "dosage": "常规剂量",
+          "notes": "第1周分离，快速应答；可辅助锂/非典型抗精神病药",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "BDI急性抑郁。2周早期改善预测总体应答。禁用抗抑郁药单药。停用所有兴奋剂/咖啡因/酒精",
+      "evidence_level": "CANMAT Level 1-2",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_depression_second_line",
+      "name": "急性双相I抑郁二线治疗",
+      "category": "急性期-双相抑郁",
+      "medications": [
+        {
+          "name": "丙戊酸",
+          "dosage": "常规剂量",
+          "notes": "单药",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "SSRI或安非他酮",
+          "dosage": "常规剂量",
+          "notes": "辅助+锂/丙戊酸/非典型抗精神病药。效应量小。禁用于转躁史/混合特征/快速循环",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "奥氮平/氟西汀合剂",
+          "dosage": "常规剂量",
+          "notes": "第1周分离；混合特征有效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "卡利拉嗪",
+          "dosage": "常规剂量",
+          "notes": "第1周分离",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "ECT",
+          "dosage": "双额电极优选",
+          "notes": "严重自杀/木僵/精神病性抑郁；快速应答需求可提前使用",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "一线治疗无效。抗抑郁药辅助2018版从一线降为二线",
+      "evidence_level": "CANMAT Level 1-3",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_maintenance_first_line",
+      "name": "双相障碍维持治疗一线",
+      "category": "维持期",
+      "medications": [
+        {
+          "name": "锂盐",
+          "dosage": "血锂0.8-1.2 mEq/L",
+          "notes": "金标准；抗躁狂+抗抑郁（弱于躁狂）+抗自杀；首发后即启动",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "喹硫平",
+          "dosage": "常规剂量",
+          "notes": "同时预防躁狂+抑郁+混合",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "丙戊酸",
+          "dosage": "常规剂量",
+          "notes": "预防躁狂+抑郁",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "≥200 mg/d",
+          "notes": "抗抑郁预防强；不适合频繁躁狂发作者；快速循环无效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿塞那平",
+          "dosage": "常规剂量",
+          "notes": "同时预防躁狂和抑郁",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "口服/月剂",
+          "notes": "预防躁狂/任何发作；不预防抑郁",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "BDI维持预防复发。年复发率19-25%（治疗）vs 23-40%（安慰剂）。急性期有效药物应继续维持。联合治疗有效者前6个月继续联合",
+      "evidence_level": "CANMAT Level 1-2",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar2_depression",
+      "name": "双相II型抑郁治疗",
+      "category": "急性期-BDII抑郁",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "300 mg/d",
+          "notes": "唯一一线推荐（1级）；BDI和BDII等效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "血锂0.8-1.2 mEq/L",
+          "notes": "二线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "≥200 mg/d",
+          "notes": "二线；缓慢滴定",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "舍曲林",
+          "dosage": "常规剂量",
+          "notes": "二线；仅纯抑郁（非混合）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "文拉法辛",
+          "dosage": "常规剂量",
+          "notes": "二线；仅纯抑郁（非混合）",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "BDII急性抑郁。抗抑郁药风险-获益比优于BDI（转躁率低，几乎均为轻躁狂）。帕罗西汀不推荐。抗抑郁药限纯抑郁、避免混合/转躁史",
+      "evidence_level": "CANMAT Level 1-2",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar2_maintenance",
+      "name": "双相II型维持治疗",
+      "category": "维持期-BDII",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "常规剂量",
+          "notes": "一线：抑郁复发HR 0.28（-72%）；轻躁狂HR 0.65（-35%）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "血锂0.8-1.2 mEq/L",
+          "notes": "一线；预防躁狂+抑郁",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "≥200 mg/d",
+          "notes": "一线；快速循环BDII亚组有效",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "BDII维持预防复发。急性期有效药物应继续",
+      "evidence_level": "CANMAT Level 1-2",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_depression_third_line",
+      "name": "急性双相抑郁三线治疗",
+      "category": "急性期-双相抑郁-难治",
+      "medications": [
+        {
+          "name": "氯胺酮IV",
+          "dosage": "常规剂量",
+          "notes": "3级；快速高效但短暂；限严重/难治/高自杀风险；滥用风险",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "莫达非尼",
+          "dosage": "常规剂量",
+          "notes": "辅助治疗（2级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "普拉克索",
+          "dosage": "常规剂量",
+          "notes": "辅助治疗（3级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "rTMS",
+          "dosage": "左/右DLPFC",
+          "notes": "辅助（3级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "卡马西平",
+          "dosage": "常规剂量",
+          "notes": "单药（2级）",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "一线+二线均无效。先足量足疗程试用多种一线/二线后再考虑三线",
+      "evidence_level": "CANMAT Level 2-4",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_refractory",
+      "name": "难治性双相障碍",
+      "category": "难治性",
+      "medications": [
+        {
+          "name": "氯氮平",
+          "dosage": "辅助治疗",
+          "notes": "减少症状和总用药量（4级）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮长效注射",
+          "dosage": "每2周",
+          "notes": "不依从者首选LAI（1级单药/2级辅助）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑月剂",
+          "dosage": "每月",
+          "notes": "不依从者LAI（2级）",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "排除不依从、剂量未优化、共病干扰后。考虑CYP2D6/3A4基因型检测排除超快代谢",
+      "evidence_level": "CANMAT Level 2-4",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_maintenance_precautions",
+      "name": "双相维持治疗禁用与慎用方案",
+      "category": "维持期-注意事项",
+      "medications": [
+        {
+          "name": "FGA(氟哌啶醇等)",
+          "dosage": "不适用",
+          "notes": "不推荐长期维持；中国规范明确不推荐；如诱发抑郁应尽快停用",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "抗抑郁药",
+          "dosage": "不适用",
+          "notes": "BDI维持期不推荐；即使急性期已使用也应停用",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "三环类抗抑郁药",
+          "dosage": "不适用",
+          "notes": "单药/辅助均2级阴性(躁狂转相风险)",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "双相障碍I型维持治疗中的药物选择禁忌。联合用药疗效更佳但联用药物剂量应小于单一用药剂量。",
+      "evidence_level": "CANMAT 2级阴性/中国规范不推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bd2_depression_treatment",
+      "name": "双相II型抑郁治疗",
+      "category": "急性期-BDII抑郁",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "常规剂量",
+          "notes": "唯一一线推荐(1级)，BDI和BDII等效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "血锂0.6-1.2 mmol/L",
+          "notes": "二线(2级)",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "缓慢滴定",
+          "notes": "二线(2级)，延迟起效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "SSRI",
+          "dosage": "常规剂量",
+          "notes": "二线，仅用于不伴混合特征的抑郁相(CANMAT)；须与心境稳定剂联用(中国规范)",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿戈美拉汀",
+          "dosage": "常规剂量",
+          "notes": "辅助加用(中国规范)",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "甲状腺素",
+          "dosage": "常规剂量",
+          "notes": "辅助增效(中国规范)",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "双相II型抑郁急性期。抗抑郁药风险低于BDI(几乎均轻躁狂非躁狂)，可用于纯抑郁相(不伴混合特征)，不推荐帕罗西汀。",
+      "evidence_level": "CANMAT 1-4级/中国规范一线~三线",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "抑郁症治疗与管理的专家推荐意见",
+        "year": 2022
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "抑郁症治疗与管理的专家推荐意见",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bd2_maintenance_treatment",
+      "name": "双相II型维持治疗",
+      "category": "维持期-BDII",
+      "medications": [
+        {
+          "name": "喹硫平",
+          "dosage": "常规剂量",
+          "notes": "一线(1级)，预防抑郁HR 0.28(-72%)",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "与急性期相同水平",
+          "notes": "一线(2级)，中国规范强调维持浓度与急性期相同",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "拉莫三嗪",
+          "dosage": "常规剂量",
+          "notes": "一线(2级)",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "双相II型巩固维持治疗。重点预防抑郁发作(抑郁占比远高于轻躁狂)。定期评估利弊风险，使用影响代谢的药物需饮食控制+体育锻炼。",
+      "evidence_level": "CANMAT 1-2级/中国规范一线",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "bipolar_mixed_episode",
+      "name": "双相混合发作治疗",
+      "category": "急性期-混合发作",
+      "medications": [
+        {
+          "name": "丙戊酸盐",
+          "dosage": "常规剂量",
+          "notes": "初始一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "卡马西平",
+          "dosage": "常规剂量",
+          "notes": "初始一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "锂盐",
+          "dosage": "常规剂量",
+          "notes": "初始一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "喹硫平/奥氮平/利培酮/帕利哌酮/阿立哌唑",
+          "dosage": "常规剂量",
+          "notes": "SGA初始一线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "丙戊酸盐/锂盐+SGA联合",
+          "dosage": "常规联合剂量",
+          "notes": "单药疗效不佳时升级",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "双相障碍混合发作。不推荐FGA(可恶化抑郁)和抗抑郁药(可加剧激越与易激惹)。ECT有效，尤其药物不佳者。",
+      "evidence_level": "CANMAT/中国规范初始一线",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT/ISBD 2018 双相障碍管理指南",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT/ISBD 2018 双相障碍管理指南",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_psychosocial_interventions_2025",
+      "name": "AUD心理社会干预（CBT/MI/TSF/CM）",
+      "category": "一线治疗",
+      "medications": [],
+      "indications": "所有酒精使用障碍患者（轻中重度均可）",
+      "evidence_level": "RCT荣萃分析（NNT=9达到3个月戒断），Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_naltrexone_heavy_drinking_2025",
+      "name": "纳曲酮减少重度饮酒",
+      "category": "药物治疗-减少饮酒",
+      "medications": [
+        {
+          "name": "纳曲酮",
+          "dosage": "口服片剂或缓释注射剂型（具体剂量原文未详述）",
+          "notes": "FDA/EMA批准。阿片受体拮抗剂。减少饮酒量和预防复饮至重度饮酒。NNT=11。可用于减少伤害策略。WHO基本药物清单2023。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "AUD，尤其适用于减少重度饮酒和控制饮酒水平",
+      "evidence_level": "荣萃分析支持，FDA/EMA批准，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_acamprosate_abstinence_2025",
+      "name": "阿坎酸促进戒断",
+      "category": "药物治疗-维持戒断",
+      "medications": [
+        {
+          "name": "阿坎酸",
+          "dosage": "具体剂量原文未详述",
+          "notes": "FDA/EMA批准。同型牛磺酸类似物。促进戒断，尤其适用于重度AUD初始戒断后维持。NNT=11预防任何饮酒。WHO基本药物清单2023。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "重度AUD，在初始戒断后维持戒断",
+      "evidence_level": "荣萃分析支持，FDA/EMA批准，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_disulfiram_supervised_2025",
+      "name": "双硫仑监督使用",
+      "category": "药物治疗-监督戒断",
+      "medications": [
+        {
+          "name": "双硫仑",
+          "dosage": "具体剂量原文未详述",
+          "notes": "乙醇脱氢酶抑制剂，FDA/EMA批准。依从性差，应仅在监督下使用。注意肝毒性但风险低于酒精。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "需在监督下确保短期戒断的AUD患者",
+      "evidence_level": "FDA/EMA批准，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_nalmefene_controlled_drinking_2025",
+      "name": "纳美芬控制饮酒",
+      "category": "药物治疗-减少饮酒",
+      "medications": [
+        {
+          "name": "纳美芬",
+          "dosage": "具体剂量原文未详述",
+          "notes": "FDA/EMA批准。阿片受体拮抗剂。减少饮酒量和预防复饮重度饮酒。可用于减少伤害策略。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "需减少饮酒量而非完全戒断的AUD患者",
+      "evidence_level": "FDA/EMA批准，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_offlabel_baclofen_topiramate_gabapentin_2025",
+      "name": "超适应症药物（巴氯芬/托吡酯/加巴喇丁）",
+      "category": "药物治疗-超适应症",
+      "medications": [
+        {
+          "name": "巴氯芬",
+          "dosage": "具体剂量原文未详述",
+          "notes": "超适应症，有荣萃分析支持。因医师不熟悉和off-label状态限制使用。",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "托吡酯",
+          "dosage": "具体剂量原文未详述",
+          "notes": "超适应症，有荣萃分析支持。因副作用未被广泛使用。",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "加巴喇丁",
+          "dosage": "具体剂量原文未详述",
+          "notes": "超适应症，有荣萃分析支持。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "对一线药物无效或不耐受的AUD患者",
+      "evidence_level": "荣萃分析支持（无正式批准），Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_semaglutide_glp1_emerging_2025",
+      "name": "司美格鲁肽（GLP-1受体激动剂）-新兴治疗",
+      "category": "新兴治疗-研究阶段",
+      "medications": [
+        {
+          "name": "司美格鲁肽",
+          "dosage": "低剂量，每周一次皮下注射（具体剂量原文未详述）",
+          "notes": "2025年首个RCT显示可减少饮酒渴求、每日饮酒量和重度饮酒天数。更多II期试验1-2年内出结果。成本障碍、胃肠道副作用、胰腺炎风险。",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "AUD（研究中，尚未批准适应症）",
+      "evidence_level": "首个RCT 2025（初步结果），II期试验进行中，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "aud_combined_psycho_pharma_2025",
+      "name": "心理社会干预联合药物治疗",
+      "category": "联合治疗",
+      "medications": [],
+      "indications": "中重度AUD，如CBT联合纳曲酮或阿坎酸可改善结局",
+      "evidence_level": "Cochrane综述和系统综述支持，Lancet 2025",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+        "year": 2025
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Rehm et al 2025 - Alcohol use disorders (Lancet Seminar)",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_firstline_ssri_2025",
+      "name": "GAD一线治疗-SSRIs单药",
+      "category": "焦虑障碍-广泛性焦虑-一线",
+      "medications": [
+        {
+          "name": "艾司西酞普兰",
+          "dosage": "10-20mg po qd",
+          "notes": "3项RCT支持；维持24-76周降低复发",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕罗西汀",
+          "dosage": "20-50mg po qd",
+          "notes": "FDA批准；撤药症状较突出",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "舍曲林",
+          "dosage": "50mg po qd",
+          "notes": "成人有效剂量50mg/d",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "广泛性焦虑障碍成人患者的一线药物治疗",
+      "evidence_level": "1级证据（CANMAT/国际指南推荐）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT 2014 Clinical Practice Guidelines for Anxiety Disorders",
+        "year": 2014
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT 2014 Clinical Practice Guidelines for Anxiety Disorders",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_firstline_snri_2025",
+      "name": "GAD一线治疗-SNRIs单药",
+      "category": "焦虑障碍-广泛性焦虑-一线",
+      "medications": [
+        {
+          "name": "度洛西汀",
+          "dosage": "60-120mg po qd",
+          "notes": "FDA批准成人及儿童(7-17岁)GAD；灵活调整剂量；唯一获批儿童GAD的抗抑郁药；双通道对躯体症状有优势",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "文拉法辛XR",
+          "dosage": "75-225mg po qd",
+          "notes": "首个FDA批准用于GAD的抗抑郁药；12个月治疗优于6个月降低复发；监测血压",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "广泛性焦虑障碍成人患者一线药物治疗；度洛西汀可用于儿童GAD(7-17岁)",
+      "evidence_level": "1级证据（CANMAT/国际指南推荐）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Duloxetine Dosing and Efficacy for GAD - Systematic Review 2020",
+        "year": 2020
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Duloxetine Dosing and Efficacy for GAD - Systematic Review 2020",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_augmentation_buspirone_2025",
+      "name": "GAD增效治疗-丁螺环酮",
+      "category": "焦虑障碍-广泛性焦虑-增效治疗",
+      "medications": [
+        {
+          "name": "丁螺环酮",
+          "dosage": "作为SSRI/SNRI增效剂使用",
+          "notes": "1级证据；尤其适用于抗抑郁剂疗效不佳且焦虑症状突出的患者；可改善焦虑认知功能",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "SSRI/SNRI单药治疗效果不佳的GAD患者，尤其焦虑症状突出者",
+      "evidence_level": "1级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_augmentation_pregabalin_2025",
+      "name": "GAD增效治疗-普瑞巴林",
+      "category": "焦虑障碍-广泛性焦虑-增效治疗",
+      "medications": [
+        {
+          "name": "普瑞巴林",
+          "dosage": "150-600mg/d",
+          "notes": "起效快(1周内)；可辅助SSRI/SNRI；对老年和难治性GAD有效；注意滥用风险",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抗抑郁剂治疗效果不佳的GAD患者；需快速起效的场景",
+      "evidence_level": "1级证据（多中心RCT支持）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_augmentation_sga_2025",
+      "name": "GAD增效治疗-非典型抗精神病药",
+      "category": "焦虑障碍-广泛性焦虑-增效治疗",
+      "medications": [
+        {
+          "name": "喹硫平XR",
+          "dosage": "50-300mg/d",
+          "notes": "复发预防优于安慰剂；监测体重和代谢",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "低剂量辅助使用",
+          "notes": "部分D2/5-HT1A激动剂",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "0.5-1.5mg/d（辅助）",
+          "notes": "HAM-A改善优于安慰剂(p=0.034)",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "对SSRI/SNRI足量足疗程治疗应答不佳的难治性GAD（CANMAT推荐二线/三线）",
+      "evidence_level": "1-2级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+        "year": 2018
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Pharmacotherapy for Generalized Anxiety Disorder - Strawn et al 2018 Review",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "gad_duloxetine_dose_escalation_2025",
+      "name": "度洛西汀GAD剂量调整方案",
+      "category": "焦虑障碍-广泛性焦虑-剂量策略",
+      "medications": [
+        {
+          "name": "度洛西汀",
+          "dosage": "起始30-60mg/d，灵活调整至60-120mg/d",
+          "notes": "60-120mg/d为有效治疗窗(多项RCT支持)；8周为充分试验期；如8周无效应考虑换药或增效。儿童：30-120mg/d灵活调整，唯一FDA批准用于儿童GAD的抗抑郁药",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "GAD患者的度洛西汀剂量个体化调整；60mg/d应答不佳时可考虑加至90-120mg/d",
+      "evidence_level": "1级证据（多项RCT+Meta分析）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "Duloxetine Dosing and Efficacy for GAD - Systematic Review 2020",
+        "year": 2020
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "Duloxetine Dosing and Efficacy for GAD - Systematic Review 2020",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "canmat_anxiety_general_principles_2025",
+      "name": "CANMAT焦虑障碍一般治疗原则",
+      "category": "焦虑障碍-CANMAT指南-治疗原则",
+      "medications": [],
+      "indications": "所有焦虑障碍的一般药物治疗原则",
+      "evidence_level": "CANMAT 2014指南",
+      "confidence": "EXTRACTED",
+      "notes": "低剂量起始，1-2周间隔滴定4-6周；完全应答可能需12周以上；持续治疗12-24个月预防复发；初期每1-2周随访，6周后每月随访；监测体重、代谢和不良事件；SSRIs/SNRIs缓慢减量避免撤药综合征",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "CANMAT 2014 Clinical Practice Guidelines for Anxiety Disorders",
+        "year": 2014
+      },
+      "_backfilled_at": "2026-06-09T17:35:20",
+      "_backfill_note": "v1→v2 历史回填，依据 treatment_wiki/log.md 的 8 批 INGEST 时序",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "CANMAT 2014 Clinical Practice Guidelines for Anxiety Disorders",
+          "at": "2026-06-09T17:35:20",
+          "action": "backfill"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_first_episode_2025",
+      "name": "首发精神分裂症急性期治疗（2025版）",
+      "category": "首发-急性期",
+      "medications": [
+        {
+          "name": "第二代抗精神病药物(除氯氮平外)",
+          "dosage": "低起始剂量，目标见各药推荐",
+          "notes": "推荐除氯氮平外的SGAs(1B)，重点考虑不良反应差异(1A)",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "奥氮平",
+          "dosage": "起始5-10mg/d，目标5-20mg/d",
+          "notes": "疗效可靠，注意体重增加和代谢风险",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "起始10-15mg/d，目标10-30mg/d",
+          "notes": "代谢影响小，注意静坐不能",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "起始1-2mg/d，目标2-6mg/d",
+          "notes": "注意EPS和催乳素升高",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "喹硫平",
+          "dosage": "起始50-100mg/d bid，目标600-750mg/d",
+          "notes": "耐受性好，注意镇静",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕利哌酮",
+          "dosage": "推荐6mg/d起始，目标3-12mg/d",
+          "notes": "无须滴定，注意EPS和催乳素",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "鲁拉西酮",
+          "dosage": "起始40mg/d，目标40-80mg/d",
+          "notes": "代谢影响小，需与食物同服",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "齐拉西酮",
+          "dosage": "目标40-160mg/d",
+          "notes": "体重增加轻微，注意QTc延长",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "布瑞哌唑",
+          "dosage": "目标2-4mg/d",
+          "notes": "2024年中国上市，代谢影响轻微",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "首发精神分裂症急性期（各种抗精神病药物除氯氮平外疗效差异不足，不良反应差异显著）",
+      "evidence_level": "1A/1B",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 2,
+      "_history": [
+        {
+          "version": 2,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "replace"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_acute_switch_2025",
+      "name": "精神分裂症急性期换药方案（2025版）",
+      "category": "急性期-换药",
+      "medications": [
+        {
+          "name": "确认剂量和依从性",
+          "dosage": "确认充分剂量且依从性良好",
+          "notes": "疗效不佳时首选确认（1B）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "换用其他抗精神病药物",
+          "dosage": "观察2-4周后评估（1B）",
+          "notes": "若4-6周仍无效，考虑交叉重叠换药策略（1C）",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "足量足疗程观察4-6周后疗效不佳（症状改善<20%）、不良反应难以耐受或患者偏好",
+      "evidence_level": "1B",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "create"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_maintenance_2025",
+      "name": "精神分裂症维持期治疗（2025版）",
+      "category": "维持期",
+      "medications": [
+        {
+          "name": "急性期有效药物继续维持",
+          "dosage": "不低于最低目标剂量（LL）（1B）",
+          "notes": "首发/1-2次复发:0.9-1.1DDD；多次复发:1.4-1.6DDD（2C）",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯氮平",
+          "dosage": "目标0.9-1.1 DDD",
+          "notes": "维持治疗全因停药率较低",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "奥氮平",
+          "dosage": "目标0.9-1.1 DDD",
+          "notes": "注意代谢风险",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑",
+          "dosage": "目标0.9-1.1 DDD",
+          "notes": "代谢影响小",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "0.6-0.9 DDD（口服最佳）",
+          "notes": "注意EPS和催乳素",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "精神分裂症维持治疗：首发>=3年(共识77%)，首次复发>=5年(共识77%)，多次发作终身(共识91%)。交叉重叠换药策略(1C)",
+      "evidence_level": "1A/1B/2C",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "create"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_trs_clozapine_2025",
+      "name": "难治性精神分裂症氯氮平方案（2025版）",
+      "category": "难治性",
+      "medications": [
+        {
+          "name": "氯氮平",
+          "dosage": "起始25mg bid，目标300-450mg/d，极少需900mg/d",
+          "notes": "TDM目标350-600ng/ml(1B)。亚洲患者可能只需150-300mg/d。TDM>350ng/ml时64%改善，>750ng/ml癫痫风险增5倍",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯氮平+氨磺必利",
+          "dosage": "氯氮平基础上增效",
+          "notes": "改善阳性症状及语言功能，降低暴力攻击风险",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯氮平+阿立哌唑",
+          "dosage": "氯氮平基础上增效",
+          "notes": "全因再住院风险最低，减少代谢不良反应",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯氮平+舒必利/利培酮/帕利哌酮",
+          "dosage": "氯氮平基础上增效",
+          "notes": "可改善部分TRS的整体症状和阳性症状",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯氮平+氟伏沙明",
+          "dosage": "需先减氯氮平1/2-2/3再滴定",
+          "notes": "仅必要时，密切监测血药浓度",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "TRS：ICD-11诊断+>=2种不同化学结构抗精神病药(>=600mg/d氯丙嗪当量，各>=6周)+依从性良好+症状中度以上+功能受损。确诊后尽早开始氯氮平(1B)。氯氮平抵抗：血药浓度>=治疗水平x3月仍无效",
+      "evidence_level": "1B",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 2,
+      "_history": [
+        {
+          "version": 2,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "replace"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_catatonia_2025",
+      "name": "紧张症群及难治性MECT方案（2025版）",
+      "category": "特殊症状群",
+      "medications": [
+        {
+          "name": "改良电休克治疗(MECT)",
+          "dosage": "按标准方案，约需11.3次",
+          "notes": "阳性症状突出或合并紧张症或明显自杀风险的TRS首选(1B)。氯氮平+MECT增效对总体症状及阳性症状最佳",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "舒必利",
+          "dosage": "静脉滴注50-100mg/d起始，逐步滴定",
+          "notes": "可考虑但证据不如MECT",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "精神分裂症紧张症群（木僵、蜡样屈曲等）或TRS。MECT+氯氮平总体应答率46-65%，约50%患者症状减轻40%，6个月内复发率显著降低。维持期可继续MECT(2C)",
+      "evidence_level": "1B/2C",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 2,
+      "_history": [
+        {
+          "version": 2,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "replace"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_lai_2025",
+      "name": "长效针剂维持治疗方案（2025版）",
+      "category": "维持期-LAI",
+      "medications": [
+        {
+          "name": "帕利哌酮PP1M",
+          "dosage": "首150mg(D1)+100mg(D8)，此后75-150mg/4周",
+          "notes": "1个月剂型。三角肌注射",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕利哌酮PP3M",
+          "dosage": "175-525mg/12周",
+          "notes": "3个月剂型。需先4个月PP1M充分治疗。剂量=PP1Mx3.5",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕利哌酮PP6M",
+          "dosage": "700mg或1000mg/24周",
+          "notes": "6个月剂型。需先PP3M至少3个月充分治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑长效(月桂酰)",
+          "dosage": "400mg/月（距上次>=26天）",
+          "notes": "首次注射后需口服14天。新患者需5天口服耐受性试验",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿立哌唑微球",
+          "dosage": "350mg/4周",
+          "notes": "2024年中国上市",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮微球",
+          "dosage": "25-50mg/2周",
+          "notes": "第1天即释放，无释放迟滞期",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氟哌啶醇癸酸酯",
+          "dosage": "50-200mg/4周",
+          "notes": "第一代长效针剂，注意EPS",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "精神分裂症维持治疗：提高依从性，降低复发率和再住院率(1A)。首发及病程早期可结合患者意愿使用(2B)",
+      "evidence_level": "1A/2B",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "create"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_akathisia_2025",
+      "name": "抗精神病药静坐不能处理（2025版）",
+      "category": "不良反应处理",
+      "medications": [
+        {
+          "name": "普萘洛尔(beta受体阻滞剂)",
+          "dosage": "标准剂量",
+          "notes": "2C，证据质量低但可能有效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米安色林/米氮平/曲唑酮(5-HT2A拮抗剂)",
+          "dosage": "标准剂量",
+          "notes": "2C，SMD=-1.07，效果最显著",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "地西泮/劳拉西泮/氯硝西泮",
+          "dosage": "标准剂量",
+          "notes": "2D，证据质量极低",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "维生素B6",
+          "dosage": "标准剂量",
+          "notes": "2D，证据质量极低。也可换用喹硫平或奥氮平",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "抗精神病药物引起的静坐不能（总体发生率约10-20%，FGAs风险更高）",
+      "evidence_level": "2C/2D",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "create"
+        }
+      ]
+    },
+    {
+      "id": "schizophrenia_agitation_2025",
+      "name": "急性兴奋激越处理（2025版）",
+      "category": "急性期-兴奋激越",
+      "medications": [
+        {
+          "name": "氟哌啶醇",
+          "dosage": "肌注，可合并BZD",
+          "notes": "FGAs有效但EPS风险高",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "齐拉西酮",
+          "dosage": "肌注10-20mg/次，最高40mg/d，<=3天",
+          "notes": "口服序贯",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "劳拉西泮/氯硝西泮",
+          "dosage": "肌注",
+          "notes": "合并使用增强镇静，短期使用",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "精神分裂症急性兴奋激越（不合作患者），避免首选氯氮平",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "source": {
+        "guide_name": "中国精神分裂症防治指南（2025版）",
+        "year": 2025
+      },
+      "_ingested_at": "2026-06-15T14:55:39.020537",
+      "_version": 2,
+      "_history": [
+        {
+          "version": 2,
+          "by": "中国精神分裂症防治指南（2025版）",
+          "at": "2026-06-15T14:55:39.020537",
+          "action": "replace"
+        }
+      ]
+    },
+    {
+      "id": "mdd_firstline_ssri_2025",
+      "name": "抑郁症一线治疗——SSRIs单药方案(2025中国指南)",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "艾司西酞普兰",
+          "dosage": "起始10mg/d, 推荐10-20mg/d, po qd",
+          "notes": "半衰期27-32h",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "舍曲林",
+          "dosage": "起始50mg/d, 推荐50-200mg/d, po qd",
+          "notes": "半衰期26h",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氟西汀",
+          "dosage": "起始20mg/d, 推荐20-60mg/d, po qd",
+          "notes": "半衰期4-6天; 换用MAOI需停药5周",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "帕罗西汀",
+          "dosage": "起始20mg/d, 推荐20-50mg/d, po qd",
+          "notes": "半衰期21h; 撤药综合征风险最高之一",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氟伏沙明",
+          "dosage": "起始50mg/d, 推荐100-300mg/d, po qd",
+          "notes": "半衰期15-20h",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "西酞普兰",
+          "dosage": "起始20mg/d, 推荐20-60mg/d, po qd",
+          "notes": "半衰期35h",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度抑郁症急性期一线选择；也可用于轻度抑郁症（心理干预无效/不可用/患者意愿时）",
+      "evidence_level": "1A级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_firstline_snri_2025",
+      "name": "抑郁症一线治疗——SNRIs单药方案(2025中国指南)",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "文拉法辛",
+          "dosage": "起始25mg/d, 推荐75-225mg/d, po",
+          "notes": "半衰期5h; 撤药综合征风险最高之一; 对躯体疼痛有改善",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "度洛西汀",
+          "dosage": "起始50mg/d, 推荐60-120mg/d, po",
+          "notes": "半衰期12h; 对躯体疼痛症状有明显改善",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米那普仑",
+          "dosage": "推荐100-200mg/d, po",
+          "notes": "",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "地文拉法辛",
+          "dosage": "推荐50-100mg/d, po",
+          "notes": "半衰期11h",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "左旋米那普仑",
+          "dosage": "起始40mg/d, 推荐40-120mg/d, po",
+          "notes": "",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度抑郁症急性期一线选择；较SSRIs起效更快，对躯体疼痛症状有明显改善作用",
+      "evidence_level": "1A级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_firstline_other_2025",
+      "name": "抑郁症一线治疗——其他新型抗抑郁药(2025中国指南)",
+      "category": "抑郁症-急性期-一线药物",
+      "medications": [
+        {
+          "name": "米氮平",
+          "dosage": "起始15mg/d, 推荐15-45mg/d, po qn",
+          "notes": "NaSSA; 适用于伴失眠和焦虑症状；可引起体重增加",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米安色林",
+          "dosage": "起始30mg/d, 推荐30-90mg/d, po",
+          "notes": "NaSSA/四环类; 适用于伴失眠和焦虑症状",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "安非他酮",
+          "dosage": "起始150mg/d, 推荐150-450mg/d, po",
+          "notes": "NDRI; 不增加体重、对性功能影响小、镇静作用低；可联用SSRIs/SNRIs",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "阿戈美拉汀",
+          "dosage": "起始25mg/d, 推荐25-50mg/d, po",
+          "notes": "MRA-5HT2cR; 起效较快、对性功能无影响、无明显撤药反应；需监测肝功能",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "伏硫西汀",
+          "dosage": "起始10mg/d, 推荐10-20mg/d, po",
+          "notes": "MMAs; 同时改善抑郁和认知功能；半衰期长撤药综合征风险低",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "托鲁地文拉法辛",
+          "dosage": "起始40mg/d, 推荐80-160mg/d, po",
+          "notes": "SNDRI; 中国首个自主研发抗抑郁1类新药；非CYP450代谢，药物相互作用风险低",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "中重度抑郁症急性期一线选择；根据患者症状特点个体化选用",
+      "evidence_level": "1A级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_secondline_2025",
+      "name": "抑郁症二线/三线治疗药物(2025中国指南)",
+      "category": "抑郁症-急性期-二线/三线药物",
+      "medications": [
+        {
+          "name": "阿米替林",
+          "dosage": "起始25mg/d, 推荐50-250mg/d, po",
+          "notes": "TCA二线; 安全剂量范围窄",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "氯米帕明",
+          "dosage": "起始25mg/d, 推荐50-250mg/d, po",
+          "notes": "TCA二线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "多塞平",
+          "dosage": "起始50mg/d, 推荐50-250mg/d, po",
+          "notes": "TCA二线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "丙咪嗪",
+          "dosage": "起始25-50mg/d, 推荐100-250mg/d, po",
+          "notes": "TCA二线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "马普替林",
+          "dosage": "起始25mg/d, 推荐50-225mg/d, po",
+          "notes": "TeCA二线; 心脏毒性较TCA小",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "曲唑酮",
+          "dosage": "起始25-50mg/d, 推荐50-400mg/d, po",
+          "notes": "SARI二线; 低剂量镇静催眠，中高剂量抗抑郁抗焦虑",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "瑞波西汀",
+          "dosage": "起始4-8mg/d, 推荐8-12mg/d, po",
+          "notes": "NRI三线",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "吗氯贝胺",
+          "dosage": "起始150mg/d, 推荐150-600mg/d, po",
+          "notes": "MAOI三线; 转换需10-14天洗脱期",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "一线药物疗效不佳或不耐受时的备选；TCAs/TeCAs为二线辅助增效用药",
+      "evidence_level": "B级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_augmentation_sga_2025",
+      "name": "抑郁症增效治疗——第二代抗精神病药(2025中国指南)",
+      "category": "抑郁症-急性期-增效治疗",
+      "medications": [
+        {
+          "name": "阿立哌唑",
+          "dosage": "2-15mg/d, po",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "喹硫平",
+          "dosage": "100-300mg/d, po（缓释片）",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "奥氮平",
+          "dosage": "2.5-10mg/d, po",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "布瑞哌唑",
+          "dosage": "1-3mg/d, po",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "利培酮",
+          "dosage": "1-3mg/d, po",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "初始抗抑郁药疗效不佳（部分有效且耐受性好）时的增效选择；也适用于难治性抑郁",
+      "evidence_level": "循证证据充分（来源于TRD临床研究及荟萃分析）",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_augmentation_other_2025",
+      "name": "抑郁症增效治疗——非抗精神病药增效方案(2025中国指南)",
+      "category": "抑郁症-急性期-增效治疗",
+      "medications": [
+        {
+          "name": "安非他酮",
+          "dosage": "150-450mg/d, po",
+          "notes": "第二种抗抑郁药增效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "米氮平",
+          "dosage": "15-45mg/d, po",
+          "notes": "第二种抗抑郁药增效; 经典组合文拉法辛+米氮平",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "艾司氯胺酮",
+          "dosage": "56-84mg/次, 鼻喷雾剂",
+          "notes": "第二种抗抑郁药增效; 快速起效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "碳酸锂",
+          "dosage": "血清浓度0.4-0.8mmol/L",
+          "notes": "锂盐增效",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "甲状腺素",
+          "dosage": "25-50μg/d, po",
+          "notes": "增效治疗",
+          "confidence": "EXTRACTED"
+        },
+        {
+          "name": "莫达非尼",
+          "dosage": "100-400mg/d",
+          "notes": "中枢兴奋剂; 有潜在成瘾性和依赖性，不建议常规使用",
+          "confidence": "EXTRACTED"
+        }
+      ],
+      "indications": "初始抗抑郁药疗效不佳时的增效选择；首选评估患者生理状况（躯体基础疾病、心血管/内分泌/肝肾功能等）",
+      "evidence_level": "循证证据来源于TRD临床研究及荟萃分析",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_suicidal_esketamine_2025",
+      "name": "伴自杀意念/行为的抑郁症——艾司氯胺酮快速干预(2025中国指南)",
+      "category": "抑郁症-特定用途治疗",
+      "medications": [
+        {
+          "name": "艾司氯胺酮鼻喷雾剂",
+          "dosage": "56-84mg/次, 每周2次, 共4周",
+          "notes": "与口服抗抑郁药联合使用; 数小时内显著改善抑郁症状; 监测血压、头晕、短暂神经精神症状"
+        }
+      ],
+      "indications": "伴有急性自杀意念或行为的成人抑郁症患者；快速减轻抑郁症状",
+      "evidence_level": "特定用途的1级推荐，A级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_trd_ofc_esketamine_2025",
+      "name": "难治性抑郁(TRD)——奥氟合剂/艾司氯胺酮方案(2025中国指南)",
+      "category": "抑郁症-难治性抑郁-药物治疗",
+      "medications": [
+        {
+          "name": "奥氮平氟西汀合剂(OFC)",
+          "dosage": "奥氮平6-12mg+氟西汀25-50mg/d, po",
+          "notes": "FDA批准用于TRD; 国内已上市但尚未获批TRD适应证"
+        },
+        {
+          "name": "艾司氯胺酮鼻喷雾剂",
+          "dosage": "56-84mg/次, 鼻喷雾剂",
+          "notes": "FDA批准用于TRD(2025); 国内已上市但尚未获批TRD适应证"
+        }
+      ],
+      "indications": "序贯两种及以上抗抑郁药充分治疗效果不佳的难治性抑郁",
+      "evidence_level": "特定用途的1级推荐，B级证据",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_mbc_protocol_2025",
+      "name": "抑郁症全病程——基于评估的量化治疗(MBC)(2025中国指南)",
+      "category": "抑郁症-治疗原则",
+      "medications": [],
+      "indications": "所有接受抗抑郁药治疗的抑郁障碍患者全病程；也适用于心理治疗和综合治疗",
+      "evidence_level": "1B级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_optimization_2025",
+      "name": "抑郁症急性期——优化药物治疗策略(2025中国指南)",
+      "category": "抑郁症-急性期-优化治疗",
+      "medications": [],
+      "indications": "初始抗抑郁药治疗4周时症状改善不足50%的患者；首先重新评估诊断（临床因素+治疗因素）；顺序：优化剂量→换药→增效治疗",
+      "evidence_level": "指南推荐流程",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_acute_mild_psychotherapy_2025",
+      "name": "轻度抑郁症——心理干预优先策略(2025中国指南)",
+      "category": "抑郁症-急性期-轻中度",
+      "medications": [],
+      "indications": "轻度抑郁发作；首选社会心理干预或心理治疗；每2-4周定期随访评估",
+      "evidence_level": "1B级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_moderate_severe_combined_2025",
+      "name": "中重度抑郁症——抗抑郁药联合心理治疗/rTMS(2025中国指南)",
+      "category": "抑郁症-急性期-中重度",
+      "medications": [],
+      "indications": "中度到重度抑郁发作急性期；推荐抗抑郁药治疗联合心理治疗或rTMS治疗，较单一药物治疗可提升疗效",
+      "evidence_level": "1B级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_maintenance_2025",
+      "name": "抑郁症巩固维持期治疗策略(2025中国指南)",
+      "category": "抑郁症-巩固/维持期",
+      "medications": [],
+      "indications": "急性期达到临床缓解后：低复燃/复发风险者→至少6个月巩固维持；高复燃/复发风险者→至少2年巩固维持；维持期使用急性期有效药物同剂量",
+      "evidence_level": "2C级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_discontinuation_2025",
+      "name": "抑郁症终止治疗——逐步减药方案(2025中国指南)",
+      "category": "抑郁症-终止治疗",
+      "medications": [],
+      "indications": "完成全病程治疗且持续缓解的患者；停药过程至少4周（半衰期越短越需遵循）；边减量边观察；停药后前6个月为复发高风险期",
+      "evidence_level": "指南推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    },
+    {
+      "id": "mdd_pgx_guided_2025",
+      "name": "药物基因组学(PGx)指导抗抑郁药治疗(2025中国指南)",
+      "category": "抑郁症-药物治疗-个体化",
+      "medications": [],
+      "indications": "可考虑用于中重度抑郁症患者指导抗抑郁药选择；与常规治疗相比可提升疗效",
+      "evidence_level": "2C级推荐",
+      "confidence": "EXTRACTED",
+      "_source": "wiki_ingest",
+      "last_updated_by": "wiki_ingest",
+      "last_updated_at": "2026-06-15T15:10:08",
+      "_version": 1,
+      "_history": [
+        {
+          "version": 1,
+          "by": "wiki_ingest",
+          "at": "2026-06-15T15:10:08",
+          "action": "created"
+        }
+      ]
+    }
+  ]
+}
